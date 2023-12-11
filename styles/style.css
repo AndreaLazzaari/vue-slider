@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* #app{
+    height: 100%;
+    width: 100%;
+} */
+
+header h1{
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+div.container-slider{
+    min-width: 800px;
+    min-height: 550px;
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: red;
+    display: flex;
+}
+
+div.slider{
+    width: 80%;
+    height: 550px;
+}
+
+div.thumbnails{
+    /* height: 200px; */
+    border: 1px solid black;
+    
+}
+
+div.container-slider p{
+    text-align: end;
+    
+}
+
+div.container-slider img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
